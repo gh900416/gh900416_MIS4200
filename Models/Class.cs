@@ -9,10 +9,12 @@ namespace gh900416_MIS4200.Models
     public class Class
     {
         public int classID { get; set; }
+        [Display(Name = "Course")]
 
         public string title { get; set; }
-
+        [Display(Name = "Description")]
         public string description { get; set; }
+ 
         public virtual Student Student { get; set; }
         public ICollection<Enrollment> Enrollments { get; set; }
 
