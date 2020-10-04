@@ -177,18 +177,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\MISContext\202010042009091_AddDataAnnotationsMig.cs" />
-    <Compile Include="Migrations\MISContext\202010042009091_AddDataAnnotationsMig.Designer.cs">
-      <DependentUpon>202010042009091_AddDataAnnotationsMig.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\MISContext\202010042018132_AddDataAnnotationsMig1.cs" />
-    <Compile Include="Migrations\MISContext\202010042018132_AddDataAnnotationsMig1.Designer.cs">
-      <DependentUpon>202010042018132_AddDataAnnotationsMig1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\MISContext\202010042027185_AddDataAnnotationsMig2.cs" />
-    <Compile Include="Migrations\MISContext\202010042027185_AddDataAnnotationsMig2.Designer.cs">
-      <DependentUpon>202010042027185_AddDataAnnotationsMig2.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\MISContext\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Class.cs" />
@@ -286,17 +274,6 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\MISContext\202010042009091_AddDataAnnotationsMig.resx">
-      <DependentUpon>202010042009091_AddDataAnnotationsMig.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\MISContext\202010042018132_AddDataAnnotationsMig1.resx">
-      <DependentUpon>202010042018132_AddDataAnnotationsMig1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\MISContext\202010042027185_AddDataAnnotationsMig2.resx">
-      <DependentUpon>202010042027185_AddDataAnnotationsMig2.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
