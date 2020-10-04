@@ -10,6 +10,8 @@ namespace gh900416_MIS4200.Models
     {
         public int classID { get; set; }
         [Display(Name = "Course")]
+        [Required(ErrorMessage ="Course is required")]
+        [StringLength(20)]
 
         public string title { get; set; }
         [Display(Name = "Description")]
